@@ -1,0 +1,10 @@
+### Create a user
+POST http://localhost:8080/createUser
+Content-Type: application/json
+
+### Get list of users
+GET http://localhost:8080/users
+
+###Update a user by its id
+POST  http://localhost:8080/updateUser
+Content-Type: application/json
